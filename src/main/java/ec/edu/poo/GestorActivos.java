@@ -85,4 +85,5 @@ public class GestorActivos {
     public ActivoDigital[] obtenerActivos() {
         return activos;
     }
+
 }

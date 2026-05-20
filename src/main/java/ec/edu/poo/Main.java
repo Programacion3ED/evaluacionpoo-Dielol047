@@ -20,8 +20,8 @@ public class Main {
 
 
         Servidor server3 = new Servidor("SRV-001", "Servidor Clon", 4, false, "Linux Ubuntu");
-        System.out.println("Registrando duplicado (SRV-001): " + gestor.registrarActivo() + gestor.registrarActivo()
-                gestor.registrarActivo(server3));
+        System.out.println("Registrando duplicado (SRV-001): " + gestor.registrarActivo(server3));
+
         System.out.println("\n--- ESTADÍSTICAS ---");
 
         System.out.println("Total de activos registrados: " + gestor.obtenerCantidadActivos());

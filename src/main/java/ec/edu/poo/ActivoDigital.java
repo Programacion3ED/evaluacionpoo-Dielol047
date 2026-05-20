@@ -49,4 +49,10 @@ public class ActivoDigital {
     public void setParcheAplicado(boolean parcheAplicado) {
         this.parcheAplicado=parcheAplicado;
     }
+    
+
+
+    public boolean getParcheAplicado() {
+        return parcheAplicado;
+    }
 }
