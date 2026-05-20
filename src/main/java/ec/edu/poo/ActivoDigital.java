@@ -34,7 +34,7 @@ public class ActivoDigital {
 
     public int getNivelRiesgo() {
 
-        return getNivelRiesgo();
+        return nivelRiesgo;
     }
 
     public void setNivelRiesgo(int nivelRiesgo) {
@@ -42,8 +42,8 @@ public class ActivoDigital {
     }
 
     public boolean isParcheAplicado() {
-        // TODO: completar
-        return false;
+
+        return parcheAplicado;
     }
 
     public void setParcheAplicado(boolean parcheAplicado) {
